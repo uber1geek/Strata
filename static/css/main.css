@@ -583,6 +583,7 @@ text-align: center;
 
   .section-18{
     background: #0071a5;
+    padding-top: 50px;
   }
 
 
@@ -617,7 +618,7 @@ text-align: center;
   margin-top: -30px;
   color: white;
   font-family: "Merriweather_light";
-  transform: translateY(0);
+  transition: transform .2s ease-in-out
 }
   .hover-e:hover{
    background-color:gray;
@@ -803,8 +804,7 @@ body {
   font-family: "Merriweather_light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
-/*  overflow-x: hidden;
-*/}
+}
 
 a {
   color: #ffc153;
@@ -1278,8 +1278,8 @@ footer.footer .copyright p.small {
 }
 
 #carousel{
-  display: inline-flex;
-}
+/*  display: inline-flex;
+*/}
 
 #owl-demo .item {
     padding: 0px;
